@@ -53,6 +53,7 @@
 		426AB1E227EE6CF4002C6956 /* RefactoringUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactoringUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		426AB1EF27EE799D002C6956 /* PasswordChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChanger.swift; sourceTree = "<group>"; };
 		429BB5C127EE84B200048061 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		429BB5C327EE874400048061 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		426AB1B327EE6CEF002C6956 = {
 			isa = PBXGroup;
 			children = (
+				429BB5C327EE874400048061 /* README.md */,
 				426AB1BE27EE6CEF002C6956 /* Refactoring */,
 				426AB1D527EE6CF3002C6956 /* RefactoringTests */,
 				426AB1DF27EE6CF4002C6956 /* RefactoringUITests */,
