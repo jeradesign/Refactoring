@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		426AB1C027EE6CEF002C6956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AB1BF27EE6CEF002C6956 /* AppDelegate.swift */; };
 		426AB1C227EE6CEF002C6956 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AB1C127EE6CEF002C6956 /* SceneDelegate.swift */; };
-		426AB1C427EE6CEF002C6956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AB1C327EE6CEF002C6956 /* ViewController.swift */; };
+		426AB1C427EE6CEF002C6956 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AB1C327EE6CEF002C6956 /* ChangePasswordViewController.swift */; };
 		426AB1C727EE6CEF002C6956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426AB1C527EE6CEF002C6956 /* Main.storyboard */; };
 		426AB1C927EE6CF3002C6956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426AB1C827EE6CF3002C6956 /* Assets.xcassets */; };
 		426AB1CC27EE6CF3002C6956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426AB1CA27EE6CF3002C6956 /* LaunchScreen.storyboard */; };
 		426AB1D727EE6CF3002C6956 /* RefactoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AB1D627EE6CF3002C6956 /* RefactoringTests.swift */; };
 		426AB1E127EE6CF4002C6956 /* RefactoringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AB1E027EE6CF4002C6956 /* RefactoringUITests.swift */; };
 		426AB1E327EE6CF4002C6956 /* RefactoringUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AB1E227EE6CF4002C6956 /* RefactoringUITestsLaunchTests.swift */; };
+		426AB1F027EE799D002C6956 /* PasswordChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AB1EF27EE799D002C6956 /* PasswordChanger.swift */; };
+		429BB5C227EE84B200048061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429BB5C127EE84B200048061 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		426AB1BC27EE6CEF002C6956 /* Refactoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refactoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426AB1BF27EE6CEF002C6956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		426AB1C127EE6CEF002C6956 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		426AB1C327EE6CEF002C6956 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		426AB1C327EE6CEF002C6956 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		426AB1C627EE6CEF002C6956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		426AB1C827EE6CF3002C6956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426AB1CB27EE6CF3002C6956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		426AB1DC27EE6CF4002C6956 /* RefactoringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefactoringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		426AB1E027EE6CF4002C6956 /* RefactoringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactoringUITests.swift; sourceTree = "<group>"; };
 		426AB1E227EE6CF4002C6956 /* RefactoringUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactoringUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		426AB1EF27EE799D002C6956 /* PasswordChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChanger.swift; sourceTree = "<group>"; };
+		429BB5C127EE84B200048061 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 			children = (
 				426AB1BF27EE6CEF002C6956 /* AppDelegate.swift */,
 				426AB1C127EE6CEF002C6956 /* SceneDelegate.swift */,
-				426AB1C327EE6CEF002C6956 /* ViewController.swift */,
+				429BB5C127EE84B200048061 /* ViewController.swift */,
+				426AB1C327EE6CEF002C6956 /* ChangePasswordViewController.swift */,
 				426AB1C527EE6CEF002C6956 /* Main.storyboard */,
 				426AB1C827EE6CF3002C6956 /* Assets.xcassets */,
+				426AB1EF27EE799D002C6956 /* PasswordChanger.swift */,
 				426AB1CA27EE6CF3002C6956 /* LaunchScreen.storyboard */,
 				426AB1CD27EE6CF3002C6956 /* Info.plist */,
 			);
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				426AB1C427EE6CEF002C6956 /* ViewController.swift in Sources */,
+				429BB5C227EE84B200048061 /* ViewController.swift in Sources */,
+				426AB1C427EE6CEF002C6956 /* ChangePasswordViewController.swift in Sources */,
 				426AB1C027EE6CEF002C6956 /* AppDelegate.swift in Sources */,
 				426AB1C227EE6CEF002C6956 /* SceneDelegate.swift in Sources */,
+				426AB1F027EE799D002C6956 /* PasswordChanger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
